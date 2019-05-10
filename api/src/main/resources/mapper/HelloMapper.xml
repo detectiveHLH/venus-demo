@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.detectivehlh.venus.demo.api.dao.HelloMapper">
+    <sql id="allColumns">
+        *
+    </sql>
+
+    <!--根据条件获取kpi,需要获取到查询区间和kpi区间有重叠的部分，一共四种情况 (qs, ks, qe, ke)(ks, qs, ke, qe)(ks, qs, qe, ke)(qs, ks, ke, qe)-->
+    <select id="select" resultType="com.detectivehlh.venus.demo.api.entity.Hello">
+        SELECT
+        <include refid="allColumns"/>
+        FROM kpi
+    </select>
+
+
+</mapper>

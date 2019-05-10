@@ -1,5 +1,8 @@
 package com.detectivehlh.venus.demo.api.controller;
 
+import com.detectivehlh.venus.demo.api.dto.HelloDTO;
+import com.detectivehlh.venus.demo.api.service.impl.HelloServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,8 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloController {
+
+    @Autowired
+    private HelloServiceImpl helloService;
+
     @GetMapping("/hello")
-    public String hello() {
-        return "TEST";
+    public HelloDTO hello() {
+        return helloService.sayHello();
     }
 }
