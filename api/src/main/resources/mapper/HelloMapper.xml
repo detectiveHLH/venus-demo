@@ -6,7 +6,6 @@
         *
     </sql>
 
-    <!--根据条件获取kpi,需要获取到查询区间和kpi区间有重叠的部分，一共四种情况 (qs, ks, qe, ke)(ks, qs, ke, qe)(ks, qs, qe, ke)(qs, ks, ke, qe)-->
     <select id="select" resultType="com.detectivehlh.venus.demo.api.entity.Hello">
         SELECT
         <include refid="allColumns"/>
