@@ -1,9 +1,9 @@
-package com.detectivehlh.venus.demo.api.service.impl;
+package GROUP.api.service.impl;
 
-import com.detectivehlh.venus.demo.api.dao.HelloMapper;
-import com.detectivehlh.venus.demo.api.dto.HelloDTO;
-import com.detectivehlh.venus.demo.api.entity.Hello;
-import com.detectivehlh.venus.demo.api.service.HelloService;
+import GROUP.api.dao.HelloMapper;
+import GROUP.api.dto.HelloDTO;
+import GROUP.api.entity.Hello;
+import GROUP.api.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

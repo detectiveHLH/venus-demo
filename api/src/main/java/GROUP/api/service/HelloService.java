@@ -1,6 +1,6 @@
-package com.detectivehlh.venus.demo.api.service;
+package GROUP.api.service;
 
-import com.detectivehlh.venus.demo.api.dto.HelloDTO;
+import GROUP.api.dto.HelloDTO;
 
 /**
  * HelloService

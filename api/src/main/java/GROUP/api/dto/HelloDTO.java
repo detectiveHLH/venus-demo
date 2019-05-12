@@ -1,4 +1,4 @@
-package com.detectivehlh.venus.demo.api.dto;
+package GROUP.api.dto;
 
 /**
  * HelloDTO

@@ -1,4 +1,4 @@
-package com.detectivehlh.venus.demo.api.config;
+package GROUP.api.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,6 +1,6 @@
-package com.detectivehlh.venus.demo.api.dao;
+package GROUP.api.dao;
 
-import com.detectivehlh.venus.demo.api.entity.Hello;
+import GROUP.api.entity.Hello;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

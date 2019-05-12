@@ -1,4 +1,4 @@
-package com.detectivehlh.venus.demo.api.entity;
+package GROUP.api.entity;
 
 /**
  * 账单流转状态

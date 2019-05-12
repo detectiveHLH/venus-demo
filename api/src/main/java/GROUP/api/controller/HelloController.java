@@ -1,7 +1,7 @@
-package com.detectivehlh.venus.demo.api.controller;
+package GROUP.api.controller;
 
-import com.detectivehlh.venus.demo.api.dto.HelloDTO;
-import com.detectivehlh.venus.demo.api.service.impl.HelloServiceImpl;
+import GROUP.api.dto.HelloDTO;
+import GROUP.api.service.impl.HelloServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
