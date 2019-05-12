@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 /**
  * DbConfig
  *
- * @author hulunhao
+ * @author Lunhao Hu
  * @date 2018-07-27 10:35
  **/
 @Configuration
