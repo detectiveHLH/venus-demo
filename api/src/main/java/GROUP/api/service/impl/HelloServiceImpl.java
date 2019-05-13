@@ -24,6 +24,7 @@ public class HelloServiceImpl implements HelloService {
     @Override
     public HelloDTO sayHello() {
 //        List<Hello> list = helloMapper.select();
+//        System.out.println(list);
         HelloDTO helloDTO = new HelloDTO();
         helloDTO.setMessage("Hello world");
         helloDTO.setCreatedAt(System.currentTimeMillis());

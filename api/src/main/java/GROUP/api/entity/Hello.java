@@ -1,62 +1,36 @@
 package GROUP.api.entity;
 
 /**
- * 账单流转状态
+ * Hello
  *
- * @author WangQuanzhou
+ * @author Lunhao Hu
  * @date 2019-03-20
  */
 public class Hello {
 
     /**
-     * 账单流转阶段id
+     * 主键id
      */
-    private String workflowId;
+    private Integer id;
 
     /**
      * 有权限处理当前workflow的角色id，多个角色以英文逗号分隔
      */
-    private String roleIds;
+    private String name;
 
-    /**
-     * 状态名称
-     */
-    private String workflowName;
-
-    /**
-     * 下一状态id
-     */
-    private String nextWorkflowId;
-
-    public String getWorkflowId() {
-        return workflowId;
+    public Integer getId() {
+        return id;
     }
 
-    public void setWorkflowId(String workflowId) {
-        this.workflowId = workflowId;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public String getRoleIds() {
-        return roleIds;
+    public String getName() {
+        return name;
     }
 
-    public void setRoleIds(String roleIds) {
-        this.roleIds = roleIds;
-    }
-
-    public String getWorkflowName() {
-        return workflowName;
-    }
-
-    public void setWorkflowName(String workflowName) {
-        this.workflowName = workflowName;
-    }
-
-    public String getNextWorkflowId() {
-        return nextWorkflowId;
-    }
-
-    public void setNextWorkflowId(String nextWorkflowId) {
-        this.nextWorkflowId = nextWorkflowId;
+    public void setName(String name) {
+        this.name = name;
     }
 }
