@@ -6,10 +6,15 @@
         *
     </sql>
 
+    <sql id="tableName">
+        test
+    </sql>
+
     <select id="select" resultType="GROUP.api.entity.Hello">
         SELECT
         <include refid="allColumns"/>
-        FROM kpi
+        FROM
+        <include refid="tableName"/>
     </select>
 
 
